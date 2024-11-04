@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding:25px;
+    background-color: #F3D4E3;
+    color:#130009;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+}
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:#510529;
+    text-decoration: none;
+    transition: color o.3s ease;
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+}
+
+nav ul li a:hover {
+    color: #FE008B;
+}
+
+.tay-tay {
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230705143236-01-taylor-swift-uncruel-summer-restricted.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp);
+    background-position: ;
+    background-size:cover ;
+    padding: 150px;
+    min-height: 90vh;
+}
+
+.tay-tay h1{
+    font-size:75px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 5px;
+    color:#510529;
+}
+
+
+.tay-tay p{
+    font-size:20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Playfair Display", serif;
+    color:#510529;
+}
+
+#about{
+    padding:50px 20px;
+    background-color:#F3D4E3 ;
+    padding:30px 50px;
+    min-height:100vh;
+    text-align: center;
+}
+#about h2{
+    font-size:70px;
+    font-family: "Playfair Display", serif;
+    color:#510529;
+}
+#about img{
+    width: 50%;
+    max-width: 600px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom:10px;
+}
+#about p{
+    font-family: "Playfair Display", serif;
+    color:#510529;
+    font-size:18px;
+    margin:0 auto;
+    text-align: justify;
+}
+
+#discography{
+    padding:50px 20px;
+    background-color: ;
+    padding:30px 50px;
+    min-height:100vh;
+    text-align: center;
+}
+
+#discography h3{
+    font-family: "Playfair Display", serif;
+    color:#510529;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
