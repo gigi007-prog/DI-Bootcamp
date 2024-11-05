@@ -109,3 +109,9 @@ nav ul li a:hover {
     height: 100%;
     object-fit: cover;
 }
+
+#more{
+    width: 50%;
+    height:70px;
+    background-color:#EE78C5 ;
+    margin-left: 20px;
