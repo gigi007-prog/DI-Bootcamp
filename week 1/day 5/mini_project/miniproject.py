@@ -10,8 +10,8 @@ def display_board(board):
         print("-" * 5)
 
 
-def initialize_board():
-    return [[" " for _ in range(3)] for _ in range(3)]
+#def initialize_board():
+    #return [[" " for _ in range(3)] for _ in range(3)]
 
 
 def check_winner(board, player):
