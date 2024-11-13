@@ -1,3 +1,5 @@
-def sum_two_numbers(a, b):
-    result = a + b
+def sum_two_numbers(x, y):
+    result = x + y
     print("The sum is:", result)
+
+
